@@ -1,2 +1,7 @@
 # zabbix-template-fujitsu-eternus
-zabbix template to monitor SAN Fujitsu Eternus
+
+This is a zabbix template to monitor SAN Fujitsu Eternus.
+
+## tested with
+
+* Eternus DX100
