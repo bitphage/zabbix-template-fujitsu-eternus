@@ -816,7 +816,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{template-fujitsu-eternus:unit.status.last()} not 3</expression>
+            <expression>{template-fujitsu-eternus:unit.status.last()} &lt;&gt; 3</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Storage status is not OK</name>
